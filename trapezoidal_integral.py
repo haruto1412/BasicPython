@@ -6,7 +6,7 @@ from math import sin,pi
 N=100
 
 a = 0
-b = 1 / (2 * pi)
+b =1/2 * pi
 delta_x = (b - a) / N
 
 # 積分値の初期化

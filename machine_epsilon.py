@@ -1,5 +1,8 @@
 # TODO
-epsilon = 1.0
-while 1.0 + epsilon != 1.0:
-    epsilon /= 2.0
-print(epsilon)
+
+EPS = 0.0
+tmp = 1.0
+while 1.0 + tmp > 1.0:
+  EPS = tmp
+  tmp /= 2
+print(EPS)
